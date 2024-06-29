@@ -15,6 +15,7 @@ import Blogs from "./component/Blogs";
 import Footer from "./component/Footer";
 import CloudfareHosting from "./component/BlogList/Cloudfare-hosting";
 import LaravelTipsAndTricksPart1 from "./component/BlogList/LaravelTipsAndTricksPart1";
+import SalesforceTools from "./component/BlogList/salesforce-tools";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="download-cv" element={<DownloadCV />} />
           <Route path="/blogs/hosting-with-cloudfare-and-github" element={ <CloudfareHosting />} />
           <Route path="/blogs/laravel-tips-and-ticks-part-1" element={<LaravelTipsAndTricksPart1 />} />
+          <Route path="/blogs/salesforce-tools-that-makes-your-life-easier" element={<SalesforceTools />} />
         </Routes>
 
         <Footer />
